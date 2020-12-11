@@ -1,0 +1,172 @@
+#painting{
+	background-color: #fff4db;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+}
+.left{
+	float:left;
+}
+.right{
+	float: right; 
+}
+.color1{
+	background-color:#74994E;
+}
+.color2{
+	background-color:#a9F062;
+}
+.color3{
+	background-color: #B9E092;
+}
+.color4{
+	background-color:#882a94;
+}
+.color5{
+	background-color: #d792e0;
+}
+.black{
+	background-color: black;
+}
+#toprow{
+	height: 100px;
+}
+#onebox1{
+	width:200px; 
+	height:100px;
+}
+#onediv{
+	width:10px;
+	height: 100px;
+}
+#onebox2{
+	width:80px;
+	height: 100px;
+}
+#divthing1{
+	width: 80px;
+	height: 10px;
+}
+#onebox3{
+	width: 200px;
+	height:100px;
+}
+#twobox1{
+	width: 200px;
+	height:10px;
+}
+#twodiv{
+	width: 200px;
+	height: 10px;
+}
+#threebox1{
+	height:80px;
+	width: 200px;
+}
+#threediv{
+	width: 10px;
+	height: 80px;
+}
+#threebox2{
+	width: 200px;
+	height: 80px;
+}
+#threebox3{
+	width: 80px;
+	height: 80px;
+}
+#rowfour{
+	height: 10px;
+	width: 500px;
+}
+#fourdiv1{
+	height: 10px;
+	width: 210px;
+}
+#fourbox1{
+	height: 10px;
+	width: 200px;
+}
+#fourbox2{
+	height: 10px;
+	width: 80px;
+}
+#fourdiv2{
+	height: 10px;
+	width: 10px;
+}
+#rowfive{
+	width: 500px;
+	height: 10px;
+}
+#fivebox1{
+	height: 113px;
+	width: 200px;
+}
+#fivediv1{
+	width: 10px;
+	height: 113px;
+}
+#fivecolumn1{
+	height: 113px;
+	width: 140px;
+}
+.topdiv{
+	height: 10px;
+	width: 140px;
+}
+#fivebox2{
+	height: 93px;
+	width: 140px;
+}
+#fivediv2{
+	height: 10px;
+	width: 140px;
+}
+#fivediv3{
+	height: 113px;
+	width: 10px;
+}
+#fivebox3{
+	height: 103px;
+	width: 140px;
+}
+#rowsix{
+	width: 500px;
+	height: 187px;
+}
+#sixcolumn1{
+	width: 200px;
+	height: 187px;
+}
+#sixbox1{
+	height: 87px;
+	width:200px;
+}
+#sixdiv1{
+	height: 10px;
+	width: 200px;
+}
+#sixbox2{
+	height: 90px;
+	width: 200px;
+}
+#sixdiv2{
+	height: 187px;
+	width: 10px;
+}
+#sixbox3{
+	height: 187px;
+	width: 140px;
+}
+#sixdiv3{
+	height: 187px;
+	width: 10px;
+}
+#sixbox4{
+	height: 187px;
+	width: 140px;
+}

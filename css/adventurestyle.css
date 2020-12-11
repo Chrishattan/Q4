@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@800&display=swap');
+*{
+	background-color: #0d2025; 
+}
+#wrapper{
+	width: 90%;
+	margin: auto;
+}
+#flexbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#grid-layout{
+	grid-template-rows:100px 25px 2vh 25px 2vh 50px;
+	grid-template-columns:1fr 2fr;
+	grid-template-areas: 
+	"nav nav"
+	"gortitle gortitle"
+	"gorillapic gorilla"
+	"arttitle arttitle"
+	"articpic artic"
+	"footer footer";
+	grid-gap: 4px;
+}
+#nav{
+	grid-area:nav;
+}
+#gortitle{
+	grid-area: gortitle;
+}
+#gorilla{
+	grid-area:gorillapic;
+}
+#gor{
+	grid-area:gorilla;
+}
+#arttitle{
+	grid-area: arttitle;
+}
+#art{
+	grid-area:articpic;
+}
+#artic{
+	grid-area: artic;
+}
+#footer{
+	grid-area:footer;
+	text-align: center;
+}
+#copyright{
+	color: #E47855;
+}
+a{
+	font-style: none;
+}
+img{
+	height: 250px;
+	padding: 10px;
+	overflow: hidden;
+}
+#logo{
+  height:75px;
+}
+ul{
+  list-style-type:none;
+  font-family: 'Nunito', sans-serif;
+  background-color: #0d2025;
+}
+h1{
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color:#7dab9b;
+}
+h2{
+	color: #E47855;
+	border-bottom: solid #E47855 3px; 
+	font-family: 'Nunito', sans-serif;
+}
+p{
+	color: #8db7b7;
+	font-family: 'Castoro', serif;
+}
+.color1{
+  color:#8db7b7;
+}
+.color2{
+  color:#7dab9b;
+}
+#contact{
+  background-color: #E47855;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color:#E47855;
+}
+a:link{
+  text-decoration: none;
+}
+#bottom{
+	color: #8db7b7;
+}
+.booking{
+	color: white;
+	background: #89AABF;
+	padding: 3px;
+}
+.pictures{
+	float: left;
+}
+.divs{
+	height: 500px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+#grid-container{
+	display: grid;
+	grid-template-rows: 50px 100px 1fr 50px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	"header header"
+	"nav nav"
+	"column1 column2"
+	"footer footer";
+	grid-gap: 10px;
+}
+img{
+	float: left;
+	width: 100px; 
+	padding: 10px;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+h1{
+	font-family: "roboto mono";
+
+}
+#header{
+	grid-area:header;
+	text-align:center;
+}
+#nav{
+	grid-area: nav;
+	background-color:#B81CD1; 
+}
+ul{
+	list-style-type:none;
+}
+.first{
+	display: inline;
+	padding: 10px;
+	background-color: #E11FFF;
+}
+a{
+	text-decoration:none;
+	font-family: "roboto mono";
+}
+.clearfix:after{
+	content: "";
+	visibility:hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+h2{
+	text-align:center; 
+	font-family: "roboto mono";
+}
+h3{
+	text-align:center; 
+	font-family: "roboto mono";
+}
+p{
+	color:#7CEB05;
+	font-family: "roboto mono";
+}
+#container1{
+	grid-area: column1;
+	background-color: #CC05EB;
+}
+#container2{
+	grid-area:column2;
+	background-color: #EB6BFF;
+}
+#footer{
+	grid-area:footer;
+	text-align: center;
+	background-color: #B81CD1;
+}
